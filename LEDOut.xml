@@ -38,31 +38,57 @@
                           </block>
                         </value>
                         <next>
-                          <block type="movement_stutter" id="113">
+                          <block type="movement_forward" id="260">
                             <next>
-                              <block type="robot_delay" id="121" inline="true">
+                              <block type="robot_delay" id="330" inline="true">
                                 <value name="DELAY">
-                                  <block type="math_number" id="128">
-                                    <field name="NUM">2000</field>
+                                  <block type="math_number" id="337">
+                                    <field name="NUM">5000</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_stop" id="166">
+                                  <block type="movement_stutter" id="113">
                                     <next>
-                                      <block type="oled_setcursor" id="175" inline="true">
-                                        <value name="STARTX">
-                                          <block type="math_number" id="188">
-                                            <field name="NUM">10</field>
-                                          </block>
-                                        </value>
-                                        <value name="STARTY">
-                                          <block type="math_number" id="195">
-                                            <field name="NUM">10</field>
+                                      <block type="robot_delay" id="121" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="128">
+                                            <field name="NUM">2000</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="oled_drawtext" id="250">
-                                            <field name="TEXT">Im a gosse</field>
+                                          <block type="movement_left" id="348">
+                                            <next>
+                                              <block type="robot_delay" id="350" inline="true">
+                                                <value name="DELAY">
+                                                  <block type="math_number" id="357">
+                                                    <field name="NUM">2000</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="movement_stop" id="166">
+                                                    <next>
+                                                      <block type="oled_setcursor" id="175" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="math_number" id="188">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="math_number" id="195">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                        <next>
+                                                          <block type="oled_drawtext" id="250">
+                                                            <field name="TEXT">Im a gosse</field>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
