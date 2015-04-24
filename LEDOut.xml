@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="28" x="220" y="129">
+  <block type="oled_cleardisplay" id="28" x="-81" y="236">
     <next>
       <block type="oled_setcursor" id="44" inline="true">
         <value name="STARTX">
@@ -30,6 +30,25 @@
                 <next>
                   <block type="oled_drawtext" id="164">
                     <field name="TEXT">Zoes Birthday</field>
+                    <next>
+                      <block type="oled_setcursor" id="212" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="235">
+                            <field name="NUM">98</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="234">
+                            <field name="NUM">10</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="227">
+                            <field name="TEXT">YEAH!!!</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
