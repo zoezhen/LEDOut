@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="28" x="-81" y="236">
+  <block type="oled_cleardisplay" id="28" x="-44" y="221">
     <next>
       <block type="oled_setcursor" id="44" inline="true">
         <value name="STARTX">
@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="136">
-            <field name="TEXT">It's Almost</field>
+            <field name="TEXT">Zoe is</field>
             <next>
               <block type="oled_setcursor" id="146" inline="true">
                 <value name="STARTX">
@@ -29,7 +29,7 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="164">
-                    <field name="TEXT">Zoe's Birthday</field>
+                    <field name="TEXT">absolutly</field>
                     <next>
                       <block type="oled_setcursor" id="212" inline="true">
                         <value name="STARTX">
@@ -44,7 +44,7 @@
                         </value>
                         <next>
                           <block type="oled_drawtext" id="227">
-                            <field name="TEXT">YEAH!!!</field>
+                            <field name="TEXT">faboulus</field>
                           </block>
                         </next>
                       </block>
